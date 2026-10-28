@@ -1,0 +1,301 @@
+confronto,abertura,principal_comeca,resultado,jogadas,nos_principal,nos_adversario,max_nos_jogada_principal,max_nos_jogada_adversario
+AB d=6 vs aleatório,0035,True,V,9,24726,0,8770,0
+AB d=6 vs aleatório,0035,False,V,10,11840,0,5332,0
+AB d=6 vs aleatório,0110,True,V,19,45802,0,18198,0
+AB d=6 vs aleatório,0110,False,V,12,13014,0,3347,0
+AB d=6 vs aleatório,0153,True,V,9,9531,0,2621,0
+AB d=6 vs aleatório,0153,False,V,6,5473,0,2949,0
+AB d=6 vs aleatório,0250,True,V,9,17241,0,6203,0
+AB d=6 vs aleatório,0250,False,V,12,47635,0,27047,0
+AB d=6 vs aleatório,0300,True,V,11,18211,0,5818,0
+AB d=6 vs aleatório,0300,False,V,6,3961,0,1745,0
+AB d=6 vs aleatório,0330,True,V,11,13356,0,3533,0
+AB d=6 vs aleatório,0330,False,V,10,9082,0,2993,0
+AB d=6 vs aleatório,0512,True,V,11,16215,0,3641,0
+AB d=6 vs aleatório,0512,False,V,4,4373,0,2538,0
+AB d=6 vs aleatório,0564,True,V,7,7748,0,3049,0
+AB d=6 vs aleatório,0564,False,V,4,3084,0,2075,0
+AB d=6 vs aleatório,1151,True,V,5,16491,0,11191,0
+AB d=6 vs aleatório,1151,False,V,10,16173,0,5273,0
+AB d=6 vs aleatório,1242,True,V,9,16479,0,7831,0
+AB d=6 vs aleatório,1242,False,V,8,16339,0,8470,0
+AB d=6 vs aleatório,1354,True,V,15,41187,0,10649,0
+AB d=6 vs aleatório,1354,False,V,6,3444,0,1570,0
+AB d=6 vs aleatório,1432,True,V,5,3245,0,1442,0
+AB d=6 vs aleatório,1432,False,V,14,34760,0,19985,0
+AB d=6 vs aleatório,1546,True,V,7,6075,0,2090,0
+AB d=6 vs aleatório,1546,False,V,8,4951,0,1814,0
+AB d=6 vs aleatório,2014,True,V,7,6626,0,2350,0
+AB d=6 vs aleatório,2014,False,V,8,7152,0,3683,0
+AB d=6 vs aleatório,2026,True,V,5,11437,0,5804,0
+AB d=6 vs aleatório,2026,False,V,10,16474,0,6181,0
+AB d=6 vs aleatório,2040,True,V,3,3749,0,2526,0
+AB d=6 vs aleatório,2040,False,V,12,22519,0,5508,0
+AB d=6 vs aleatório,2046,True,V,3,3469,0,2246,0
+AB d=6 vs aleatório,2046,False,V,8,6307,0,2412,0
+AB d=6 vs aleatório,2055,True,V,3,3238,0,1641,0
+AB d=6 vs aleatório,2055,False,V,8,4831,0,1475,0
+AB d=6 vs aleatório,2211,True,V,3,3260,0,2162,0
+AB d=6 vs aleatório,2211,False,V,6,4440,0,2036,0
+AB d=6 vs aleatório,2513,True,V,13,60623,0,41214,0
+AB d=6 vs aleatório,2513,False,V,6,8981,0,6851,0
+AB d=6 vs aleatório,2553,True,V,7,10894,0,4586,0
+AB d=6 vs aleatório,2553,False,V,12,20966,0,7013,0
+AB d=6 vs aleatório,2631,True,V,5,7190,0,3342,0
+AB d=6 vs aleatório,2631,False,V,8,9104,0,3579,0
+AB d=6 vs aleatório,3003,True,V,9,17093,0,6954,0
+AB d=6 vs aleatório,3003,False,V,8,8276,0,3504,0
+AB d=6 vs aleatório,3004,True,V,11,21336,0,5893,0
+AB d=6 vs aleatório,3004,False,V,10,15436,0,4406,0
+AB d=6 vs aleatório,3302,True,V,9,11658,0,3319,0
+AB d=6 vs aleatório,3302,False,V,6,4100,0,2377,0
+AB d=6 vs aleatório,3332,True,V,7,9816,0,2911,0
+AB d=6 vs aleatório,3332,False,V,18,31923,0,8385,0
+AB d=6 vs aleatório,3464,True,V,7,7908,0,2953,0
+AB d=6 vs aleatório,3464,False,V,10,15482,0,5475,0
+AB d=6 vs aleatório,4005,True,V,7,12267,0,3407,0
+AB d=6 vs aleatório,4005,False,V,16,25726,0,6691,0
+AB d=6 vs aleatório,4051,True,V,3,2842,0,2082,0
+AB d=6 vs aleatório,4051,False,V,12,22070,0,6767,0
+AB d=6 vs aleatório,4106,True,V,7,9029,0,2898,0
+AB d=6 vs aleatório,4106,False,V,12,14775,0,4366,0
+AB d=6 vs aleatório,4121,True,V,3,8069,0,5190,0
+AB d=6 vs aleatório,4121,False,V,10,8613,0,2113,0
+AB d=6 vs aleatório,4222,True,V,7,9267,0,3619,0
+AB d=6 vs aleatório,4222,False,V,8,11351,0,4960,0
+AB d=6 vs aleatório,4226,True,V,9,9361,0,3233,0
+AB d=6 vs aleatório,4226,False,V,16,37068,0,9049,0
+AB d=6 vs aleatório,4244,True,V,13,37946,0,9213,0
+AB d=6 vs aleatório,4244,False,V,8,8962,0,3476,0
+AB d=6 vs aleatório,4331,True,V,9,19319,0,8541,0
+AB d=6 vs aleatório,4331,False,V,12,21777,0,6392,0
+AB d=6 vs aleatório,4520,True,V,3,5532,0,3022,0
+AB d=6 vs aleatório,4520,False,V,16,13458,0,2643,0
+AB d=6 vs aleatório,5042,True,V,3,27711,0,21948,0
+AB d=6 vs aleatório,5042,False,V,8,6659,0,2398,0
+AB d=6 vs aleatório,5142,True,V,3,25659,0,19908,0
+AB d=6 vs aleatório,5142,False,V,4,14951,0,11849,0
+AB d=6 vs aleatório,5200,True,V,11,25839,0,7206,0
+AB d=6 vs aleatório,5200,False,V,8,6105,0,2026,0
+AB d=6 vs aleatório,5351,True,V,11,27372,0,7877,0
+AB d=6 vs aleatório,5351,False,V,14,28586,0,5903,0
+AB d=6 vs aleatório,5456,True,V,7,12569,0,4406,0
+AB d=6 vs aleatório,5456,False,V,12,24315,0,11988,0
+AB d=6 vs aleatório,5463,True,V,13,16082,0,3776,0
+AB d=6 vs aleatório,5463,False,V,10,51096,0,35922,0
+AB d=6 vs aleatório,5625,True,V,3,3510,0,2039,0
+AB d=6 vs aleatório,5625,False,V,12,12598,0,3888,0
+AB d=6 vs aleatório,6043,True,V,9,13917,0,5615,0
+AB d=6 vs aleatório,6043,False,V,6,5268,0,2419,0
+AB d=6 vs aleatório,6056,True,V,3,2999,0,1681,0
+AB d=6 vs aleatório,6056,False,V,18,32858,0,7249,0
+AB d=6 vs aleatório,6363,True,V,11,30598,0,8980,0
+AB d=6 vs aleatório,6363,False,V,10,11956,0,4664,0
+AB d=6 vs aleatório,6364,True,V,11,32815,0,7399,0
+AB d=6 vs aleatório,6364,False,V,4,7371,0,4248,0
+AB d=6 vs aleatório,6366,True,V,15,12889,0,3336,0
+AB d=6 vs aleatório,6366,False,V,8,7194,0,2676,0
+AB d=6 vs aleatório,6436,True,V,9,26744,0,9442,0
+AB d=6 vs aleatório,6436,False,V,6,18290,0,7552,0
+AB d=6 vs aleatório,6632,True,V,11,29545,0,7127,0
+AB d=6 vs aleatório,6632,False,V,10,16975,0,3995,0
+AB d=6 vs AB d=3,0035,True,V,25,33174,1290,5706,163
+AB d=6 vs AB d=3,0035,False,D,27,31559,1436,6314,220
+AB d=6 vs AB d=3,0110,True,V,15,34239,815,8784,214
+AB d=6 vs AB d=3,0110,False,V,18,39669,989,10951,164
+AB d=6 vs AB d=3,0153,True,V,15,33804,913,8306,156
+AB d=6 vs AB d=3,0153,False,V,14,32902,862,9303,166
+AB d=6 vs AB d=3,0250,True,V,11,26052,598,7206,163
+AB d=6 vs AB d=3,0250,False,D,29,40958,1358,11162,192
+AB d=6 vs AB d=3,0300,True,V,29,19308,955,3626,122
+AB d=6 vs AB d=3,0300,False,V,20,19986,876,4831,153
+AB d=6 vs AB d=3,0330,True,V,29,26758,971,5022,123
+AB d=6 vs AB d=3,0330,False,V,24,17787,853,3820,106
+AB d=6 vs AB d=3,0512,True,D,28,22700,1101,3408,127
+AB d=6 vs AB d=3,0512,False,V,20,21867,929,5026,153
+AB d=6 vs AB d=3,0564,True,V,15,24108,920,5352,172
+AB d=6 vs AB d=3,0564,False,D,35,42099,1424,10073,153
+AB d=6 vs AB d=3,1151,True,V,7,11721,354,5096,133
+AB d=6 vs AB d=3,1151,False,V,20,36384,1318,7354,199
+AB d=6 vs AB d=3,1242,True,D,32,43644,1292,9209,142
+AB d=6 vs AB d=3,1242,False,D,23,30042,1008,6888,157
+AB d=6 vs AB d=3,1354,True,V,15,28245,861,6579,177
+AB d=6 vs AB d=3,1354,False,V,24,32714,1284,6566,177
+AB d=6 vs AB d=3,1432,True,V,15,31608,912,8705,154
+AB d=6 vs AB d=3,1432,False,V,18,36354,1095,8405,167
+AB d=6 vs AB d=3,1546,True,V,19,20888,794,5678,138
+AB d=6 vs AB d=3,1546,False,V,24,59774,1341,20810,191
+AB d=6 vs AB d=3,2014,True,D,22,25502,1012,5243,165
+AB d=6 vs AB d=3,2014,False,V,34,37879,1197,7342,165
+AB d=6 vs AB d=3,2026,True,V,5,6673,310,2995,168
+AB d=6 vs AB d=3,2026,False,V,30,24464,1290,4868,166
+AB d=6 vs AB d=3,2040,True,V,3,4972,148,2526,148
+AB d=6 vs AB d=3,2040,False,D,3,7312,174,7312,95
+AB d=6 vs AB d=3,2046,True,V,3,4415,157,2246,157
+AB d=6 vs AB d=3,2046,False,D,3,6005,174,6005,95
+AB d=6 vs AB d=3,2055,True,V,29,32384,1373,9402,222
+AB d=6 vs AB d=3,2055,False,V,22,19621,1038,3569,149
+AB d=6 vs AB d=3,2211,True,V,3,3868,104,2162,104
+AB d=6 vs AB d=3,2211,False,D,3,7140,166,7140,91
+AB d=6 vs AB d=3,2513,True,V,15,71816,1166,36284,203
+AB d=6 vs AB d=3,2513,False,V,14,46625,828,12032,182
+AB d=6 vs AB d=3,2553,True,V,13,27026,721,9496,142
+AB d=6 vs AB d=3,2553,False,D,33,30099,1345,7013,169
+AB d=6 vs AB d=3,2631,True,V,9,16394,586,6323,196
+AB d=6 vs AB d=3,2631,False,E,38,51175,1586,9364,165
+AB d=6 vs AB d=3,3003,True,V,19,29111,813,4995,140
+AB d=6 vs AB d=3,3003,False,V,34,25418,1201,4781,169
+AB d=6 vs AB d=3,3004,True,D,36,21258,927,3722,111
+AB d=6 vs AB d=3,3004,False,V,34,18052,1153,3801,143
+AB d=6 vs AB d=3,3302,True,V,13,16738,546,4067,114
+AB d=6 vs AB d=3,3302,False,V,20,23853,914,7168,175
+AB d=6 vs AB d=3,3332,True,V,23,21911,856,4226,122
+AB d=6 vs AB d=3,3332,False,V,28,45199,1119,10233,168
+AB d=6 vs AB d=3,3464,True,V,13,21874,593,5034,149
+AB d=6 vs AB d=3,3464,False,V,26,18056,1016,2629,183
+AB d=6 vs AB d=3,4005,True,V,21,25115,929,6661,142
+AB d=6 vs AB d=3,4005,False,V,22,37678,1243,8997,207
+AB d=6 vs AB d=3,4051,True,V,3,4004,90,2082,90
+AB d=6 vs AB d=3,4051,False,D,3,12516,158,12516,87
+AB d=6 vs AB d=3,4106,True,V,27,33125,1505,5147,185
+AB d=6 vs AB d=3,4106,False,V,12,23488,847,6843,178
+AB d=6 vs AB d=3,4121,True,V,21,22890,976,4605,179
+AB d=6 vs AB d=3,4121,False,V,12,26946,715,9963,151
+AB d=6 vs AB d=3,4222,True,V,9,17580,377,5758,114
+AB d=6 vs AB d=3,4222,False,V,18,25825,1036,6131,209
+AB d=6 vs AB d=3,4226,True,V,35,25799,1195,3646,189
+AB d=6 vs AB d=3,4226,False,E,38,38678,1531,11701,201
+AB d=6 vs AB d=3,4244,True,D,22,55148,1128,14180,229
+AB d=6 vs AB d=3,4244,False,V,32,23742,1083,6663,146
+AB d=6 vs AB d=3,4331,True,V,23,30525,1059,8541,175
+AB d=6 vs AB d=3,4331,False,D,27,28687,1144,9323,174
+AB d=6 vs AB d=3,4520,True,V,19,17270,845,4418,179
+AB d=6 vs AB d=3,4520,False,E,38,50595,1449,7177,160
+AB d=6 vs AB d=3,5042,True,V,23,31960,1307,5763,211
+AB d=6 vs AB d=3,5042,False,D,35,89762,1246,65164,130
+AB d=6 vs AB d=3,5142,True,V,19,24939,868,5751,156
+AB d=6 vs AB d=3,5142,False,V,36,91975,1382,64657,174
+AB d=6 vs AB d=3,5200,True,V,11,26052,598,7206,163
+AB d=6 vs AB d=3,5200,False,D,29,40958,1358,11162,192
+AB d=6 vs AB d=3,5351,True,D,26,29649,1035,5775,164
+AB d=6 vs AB d=3,5351,False,V,4,5680,248,3821,132
+AB d=6 vs AB d=3,5456,True,V,19,38322,1006,9274,156
+AB d=6 vs AB d=3,5456,False,D,35,32598,1222,13509,221
+AB d=6 vs AB d=3,5463,True,V,9,17429,572,6565,170
+AB d=6 vs AB d=3,5463,False,V,12,27539,869,9690,235
+AB d=6 vs AB d=3,5625,True,V,13,34090,943,7457,231
+AB d=6 vs AB d=3,5625,False,D,29,39858,1340,9935,168
+AB d=6 vs AB d=3,6043,True,V,17,31483,791,7036,161
+AB d=6 vs AB d=3,6043,False,V,28,22714,1005,5178,142
+AB d=6 vs AB d=3,6056,True,V,21,39216,1140,7785,195
+AB d=6 vs AB d=3,6056,False,V,16,35265,1191,9617,238
+AB d=6 vs AB d=3,6363,True,D,32,41155,1059,9477,119
+AB d=6 vs AB d=3,6363,False,V,12,32537,1300,8204,399
+AB d=6 vs AB d=3,6364,True,V,25,49656,1043,8767,140
+AB d=6 vs AB d=3,6364,False,V,26,34342,1477,6054,202
+AB d=6 vs AB d=3,6366,True,V,29,21205,989,3304,116
+AB d=6 vs AB d=3,6366,False,V,22,30424,1222,5911,146
+AB d=6 vs AB d=3,6436,True,V,17,22412,759,5378,123
+AB d=6 vs AB d=3,6436,False,D,31,35681,1119,13621,164
+AB d=6 vs AB d=3,6632,True,V,19,22793,792,5059,140
+AB d=6 vs AB d=3,6632,False,V,34,29409,1115,6605,151
+AB d=3 vs aleatório,0035,True,V,9,621,0,147,0
+AB d=3 vs aleatório,0035,False,V,10,485,0,129,0
+AB d=3 vs aleatório,0110,True,V,19,1165,0,200,0
+AB d=3 vs aleatório,0110,False,V,8,363,0,129,0
+AB d=3 vs aleatório,0153,True,V,13,893,0,200,0
+AB d=3 vs aleatório,0153,False,V,6,276,0,104,0
+AB d=3 vs aleatório,0250,True,V,7,418,0,136,0
+AB d=3 vs aleatório,0250,False,V,10,589,0,168,0
+AB d=3 vs aleatório,0300,True,V,7,325,0,107,0
+AB d=3 vs aleatório,0300,False,V,6,224,0,92,0
+AB d=3 vs aleatório,0330,True,V,15,771,0,128,0
+AB d=3 vs aleatório,0330,False,V,22,1060,0,139,0
+AB d=3 vs aleatório,0512,True,V,9,450,0,120,0
+AB d=3 vs aleatório,0512,False,V,4,192,0,104,0
+AB d=3 vs aleatório,0564,True,V,9,450,0,114,0
+AB d=3 vs aleatório,0564,False,V,4,173,0,98,0
+AB d=3 vs aleatório,1151,True,V,5,279,0,109,0
+AB d=3 vs aleatório,1151,False,V,10,550,0,133,0
+AB d=3 vs aleatório,1242,True,V,13,784,0,164,0
+AB d=3 vs aleatório,1242,False,V,8,408,0,138,0
+AB d=3 vs aleatório,1354,True,V,7,340,0,96,0
+AB d=3 vs aleatório,1354,False,V,6,208,0,76,0
+AB d=3 vs aleatório,1432,True,V,5,218,0,86,0
+AB d=3 vs aleatório,1432,False,V,10,418,0,110,0
+AB d=3 vs aleatório,1546,True,V,3,172,0,98,0
+AB d=3 vs aleatório,1546,False,V,12,627,0,141,0
+AB d=3 vs aleatório,2014,True,V,7,318,0,100,0
+AB d=3 vs aleatório,2014,False,V,8,366,0,150,0
+AB d=3 vs aleatório,2026,True,V,5,278,0,115,0
+AB d=3 vs aleatório,2026,False,V,10,541,0,126,0
+AB d=3 vs aleatório,2040,True,V,3,259,0,164,0
+AB d=3 vs aleatório,2040,False,V,12,807,0,169,0
+AB d=3 vs aleatório,2046,True,V,3,174,0,95,0
+AB d=3 vs aleatório,2046,False,V,8,284,0,76,0
+AB d=3 vs aleatório,2055,True,V,3,182,0,94,0
+AB d=3 vs aleatório,2055,False,V,14,702,0,141,0
+AB d=3 vs aleatório,2211,True,V,3,329,0,238,0
+AB d=3 vs aleatório,2211,False,V,6,201,0,99,0
+AB d=3 vs aleatório,2513,True,V,7,368,0,103,0
+AB d=3 vs aleatório,2513,False,V,8,518,0,168,0
+AB d=3 vs aleatório,2553,True,V,7,441,0,145,0
+AB d=3 vs aleatório,2553,False,V,12,484,0,96,0
+AB d=3 vs aleatório,2631,True,V,7,426,0,132,0
+AB d=3 vs aleatório,2631,False,V,14,668,0,115,0
+AB d=3 vs aleatório,3003,True,V,15,1184,0,241,0
+AB d=3 vs aleatório,3003,False,V,8,329,0,107,0
+AB d=3 vs aleatório,3004,True,V,5,208,0,76,0
+AB d=3 vs aleatório,3004,False,V,16,738,0,125,0
+AB d=3 vs aleatório,3302,True,V,11,570,0,120,0
+AB d=3 vs aleatório,3302,False,V,8,437,0,144,0
+AB d=3 vs aleatório,3332,True,V,9,415,0,99,0
+AB d=3 vs aleatório,3332,False,V,18,968,0,153,0
+AB d=3 vs aleatório,3464,True,V,5,216,0,84,0
+AB d=3 vs aleatório,3464,False,V,12,796,0,199,0
+AB d=3 vs aleatório,4005,True,V,5,316,0,116,0
+AB d=3 vs aleatório,4005,False,V,12,635,0,130,0
+AB d=3 vs aleatório,4051,True,V,3,158,0,87,0
+AB d=3 vs aleatório,4051,False,V,4,114,0,74,0
+AB d=3 vs aleatório,4106,True,V,11,637,0,168,0
+AB d=3 vs aleatório,4106,False,V,10,509,0,156,0
+AB d=3 vs aleatório,4121,True,V,9,442,0,112,0
+AB d=3 vs aleatório,4121,False,V,4,175,0,130,0
+AB d=3 vs aleatório,4222,True,V,7,306,0,92,0
+AB d=3 vs aleatório,4222,False,V,8,290,0,82,0
+AB d=3 vs aleatório,4226,True,V,7,330,0,116,0
+AB d=3 vs aleatório,4226,False,V,14,719,0,142,0
+AB d=3 vs aleatório,4244,True,V,7,490,0,170,0
+AB d=3 vs aleatório,4244,False,V,8,417,0,155,0
+AB d=3 vs aleatório,4331,True,V,7,487,0,160,0
+AB d=3 vs aleatório,4331,False,V,18,790,0,149,0
+AB d=3 vs aleatório,4520,True,V,3,220,0,116,0
+AB d=3 vs aleatório,4520,False,V,8,292,0,84,0
+AB d=3 vs aleatório,5042,True,V,3,474,0,344,0
+AB d=3 vs aleatório,5042,False,V,4,204,0,116,0
+AB d=3 vs aleatório,5142,True,V,3,474,0,344,0
+AB d=3 vs aleatório,5142,False,V,4,340,0,238,0
+AB d=3 vs aleatório,5200,True,V,9,400,0,90,0
+AB d=3 vs aleatório,5200,False,V,14,851,0,159,0
+AB d=3 vs aleatório,5351,True,V,9,510,0,128,0
+AB d=3 vs aleatório,5351,False,V,4,204,0,115,0
+AB d=3 vs aleatório,5456,True,V,7,547,0,160,0
+AB d=3 vs aleatório,5456,False,V,12,553,0,119,0
+AB d=3 vs aleatório,5463,True,V,13,883,0,178,0
+AB d=3 vs aleatório,5463,False,V,8,408,0,162,0
+AB d=3 vs aleatório,5625,True,V,3,172,0,88,0
+AB d=3 vs aleatório,5625,False,V,16,995,0,222,0
+AB d=3 vs aleatório,6043,True,V,9,596,0,142,0
+AB d=3 vs aleatório,6043,False,V,6,381,0,153,0
+AB d=3 vs aleatório,6056,True,V,5,304,0,110,0
+AB d=3 vs aleatório,6056,False,V,8,292,0,84,0
+AB d=3 vs aleatório,6363,True,V,7,422,0,138,0
+AB d=3 vs aleatório,6363,False,V,8,565,0,164,0
+AB d=3 vs aleatório,6364,True,V,11,724,0,153,0
+AB d=3 vs aleatório,6364,False,V,6,282,0,116,0
+AB d=3 vs aleatório,6366,True,V,9,466,0,122,0
+AB d=3 vs aleatório,6366,False,V,10,504,0,128,0
+AB d=3 vs aleatório,6436,True,V,9,488,0,140,0
+AB d=3 vs aleatório,6436,False,V,8,525,0,164,0
+AB d=3 vs aleatório,6632,True,V,9,598,0,157,0
+AB d=3 vs aleatório,6632,False,V,12,701,0,161,0
