@@ -1,4 +1,4 @@
-"""Uma partida ao vivo (AB d=6 como X contra AB d=3 como O) com contador de nós na tela."""
+#AB d=6 como X contra AB d=3 como O
 import random
 from jogo import Jogo
 from busca import criar_agente_alfabeta
@@ -10,7 +10,7 @@ nome = {1: "X (d=6)", 2: "O (d=3)"}
 total = {1: 0, 2: 0}
 
 j = Jogo()
-for _ in range(4):                      # abertura aleatória de 4 jogadas
+for _ in range(4):
     j.jogar(random.choice(j.acoes()))
 print("Abertura sorteada:\n" + str(j))
 

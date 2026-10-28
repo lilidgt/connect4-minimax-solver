@@ -1,41 +1,33 @@
-"""Minimax, Alfa-Beta, função de avaliação e agentes.
-
-Unidade de custo: NÓS VISITADOS = número de chamadas à função de busca.
-O contador é uma lista de um elemento (cont[0]) passada pelas chamadas.
-Todas as funções avaliam do ponto de vista do jogador `meu` (1 = X, 2 = O):
-se `meu` = X, é exatamente o MAX/MIN da ficha.
-"""
 import random
 
 VITORIA = 100000
 INF = float("inf")
 
 
-# ---------------------------------------------------------------- avaliação
 def valor_terminal(jogo, meu, d):
-    """Vitória +100000, derrota -100000, empate 0.
-    Somamos d (profundidade que sobrou) para preferir vitórias rápidas
-    e derrotas demoradas."""
+    # d é a profundidade que sobrou: vitória rápida vale mais, derrota rápida vale menos
     if jogo.vencedor == 0:
         return 0
-    return VITORIA + d if jogo.vencedor == meu else -(VITORIA + d)
+    if jogo.vencedor == meu:# "meu" é o jogador que está decidindo (1 = X, 2 = O).
+        return VITORIA + d
+    return -(VITORIA + d)
 
 
 def avaliar(jogo, meu):
-    """Heurística da ficha, do ponto de vista de `meu`:
-    +3 por peça minha na coluna central; janela com k-1 minhas e 1 vazia +5;
-    k-2 minhas e 2 vazias +2; janela com k-1 do adversário e 1 vazia -4."""
     tab, K = jogo.tab, jogo.K
     adv = 3 - meu
     centro = jogo.C // 2
+
+    # +3 por peça minha na coluna do meio
     pontos = 3 * sum(1 for r in range(jogo.L) if tab[r * jogo.C + centro] == meu)
+
     for janela in jogo.janelas:
-        n_meu = n_adv = 0
+        n_meu = 0
+        n_adv = 0
         for i in janela:
-            p = tab[i]
-            if p == meu:
+            if tab[i] == meu:
                 n_meu += 1
-            elif p == adv:
+            elif tab[i] == adv:
                 n_adv += 1
         if n_adv == 0:
             if n_meu == K - 1:
@@ -47,31 +39,34 @@ def avaliar(jogo, meu):
     return pontos
 
 
-# ------------------------------------------------------------------ Minimax
 def minimax(jogo, d, meu, cont):
     cont[0] += 1
     if jogo.terminal():
         return valor_terminal(jogo, meu, d)
     if d == 0:
         return avaliar(jogo, meu)
-    maximiza = (jogo.vez == meu)
+
+    maximiza = jogo.vez == meu
     melhor = -INF if maximiza else INF
     for c in jogo.acoes():
         jogo.jogar(c)
         v = minimax(jogo, d - 1, meu, cont)
         jogo.desfazer(c)
-        melhor = max(melhor, v) if maximiza else min(melhor, v)
+        if maximiza:
+            melhor = max(melhor, v)
+        else:
+            melhor = min(melhor, v)
     return melhor
 
 
-# --------------------------------------------------------------- Alfa-Beta
 def alfabeta(jogo, d, alfa, beta, meu, cont):
     cont[0] += 1
     if jogo.terminal():
         return valor_terminal(jogo, meu, d)
     if d == 0:
         return avaliar(jogo, meu)
-    maximiza = (jogo.vez == meu)
+
+    maximiza = jogo.vez == meu
     melhor = -INF if maximiza else INF
     for c in jogo.acoes():
         jogo.jogar(c)
@@ -83,25 +78,27 @@ def alfabeta(jogo, d, alfa, beta, meu, cont):
         else:
             melhor = min(melhor, v)
             beta = min(beta, melhor)
-        if alfa >= beta:      # poda
+        if alfa >= beta:   # poda
             break
     return melhor
 
 
-# ------------------------------------------------------------------ Agentes
-# Todo agente é uma função  agente(jogo) -> (coluna, nós_visitados)
+# Cada agente recebe o jogo e devolve (coluna, nós visitados)
 
 def criar_agente_alfabeta(profundidade):
     def agente(jogo):
         meu = jogo.vez
-        cont = [1]                       # conta o nó raiz
-        melhor_v, melhor_c, alfa = -INF, None, -INF
+        cont = [1]   # já conta a raiz
+        melhor_v = -INF
+        melhor_c = None
+        alfa = -INF
         for c in jogo.acoes():
             jogo.jogar(c)
             v = alfabeta(jogo, profundidade - 1, alfa, INF, meu, cont)
             jogo.desfazer(c)
-            if v > melhor_v:             # empate: fica a primeira (mais central)
-                melhor_v, melhor_c = v, c
+            if v > melhor_v:   # em empate fica a primeira (a mais central)
+                melhor_v = v
+                melhor_c = c
             alfa = max(alfa, melhor_v)
         return melhor_c, cont[0]
     return agente
@@ -109,6 +106,7 @@ def criar_agente_alfabeta(profundidade):
 
 def criar_agente_aleatorio(semente):
     rng = random.Random(semente)
+
     def agente(jogo):
-        return rng.choice(jogo.acoes()), 0   # não faz busca: custo 0 nós
+        return rng.choice(jogo.acoes()), 0   # não faz busca, custo 0
     return agente

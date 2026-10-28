@@ -1,12 +1,5 @@
-"""Torneio: roda os confrontos do protocolo e imprime a tabela de resultados.
-
-Protocolo (ver ficha):
-- unidade de custo: nós visitados (agente aleatório não faz busca = 0 nós)
-- 50 aberturas distintas sorteadas com semente 42; cada abertura é jogada
-  duas vezes: principal como X (começa) e principal como O (adversário começa)
-  => 100 partidas por confronto
-- abertura = 4 jogadas aleatórias (2 de cada lado), para haver 50 distintas
-"""
+# Torneio: 50 aberturas (semente 42), cada uma jogada duas vezes trocando os lados,
+# ou seja, 100 partidas por confronto. Custo = nós visitados.
 import random
 import statistics
 import csv
